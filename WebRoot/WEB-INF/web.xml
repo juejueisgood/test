@@ -1,0 +1,55 @@
+<web-app xmlns:web="http://xmlns.jcp.org/xml/ns/javaee">
+  <servlet>
+    <servlet-name>demo1</servlet-name>
+    <servlet-class>com.cook.www.demo1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>demo1</servlet-name>
+    <url-pattern>/demo1</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>sdemo1</servlet-name>
+    <servlet-class>com.httpsession.www.demo1</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>demo2</servlet-name>
+    <servlet-class>com.cook.www.demo2</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>clea</servlet-name>
+    <servlet-class>com.cook.www.clear</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>demo3</servlet-name>
+    <servlet-class>com.cook.www.demo3</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>demo4</servlet-name>
+    <servlet-class>com.cook.www.demo4</servlet-class>
+  </servlet>
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>sdemo1</servlet-name>
+    <url-pattern>/sdemo1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>demo2</servlet-name>
+    <url-pattern>/demo2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>clea</servlet-name>
+    <url-pattern>/clear</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>demo3</servlet-name>
+    <url-pattern>/demo3</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>demo4</servlet-name>
+    <url-pattern>/demo4</url-pattern>
+  </servlet-mapping>
+</web-app>
